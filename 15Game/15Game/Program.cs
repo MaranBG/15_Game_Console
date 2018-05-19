@@ -10,6 +10,11 @@ namespace _15Game
     {
         static void Main(string[] args)
         {
+            GameBoard gb = new GameBoard(4);
+            gb.Drawer = new ConsoleDrawer();
+            gb.Draw();
+
+            Console.ReadKey();
         }
     }
 }
