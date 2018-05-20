@@ -46,6 +46,8 @@
     <Compile Include="Classes\GameBoard.cs" />
     <Compile Include="Classes\IBoardDrawer.cs" />
     <Compile Include="Classes\ConsoleDrawer.cs" />
+    <Compile Include="Classes\TileMover.cs" />
+    <Compile Include="Classes\UserInput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
